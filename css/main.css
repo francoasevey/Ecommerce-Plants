@@ -259,3 +259,24 @@ a{
     justify-content: center;
     align-items: center;
 }
+
+.footer{
+    margin-top: 120px;
+    background-color: var(--color-primary);
+}
+.footer-container{
+    padding: 40px 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 40px;
+}
+.footer-item-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.footer-copy{
+    padding: 10px 0px;
+    text-align: center;
+}
