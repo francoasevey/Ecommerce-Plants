@@ -99,3 +99,23 @@ a{
 .header-item-number{
     font-size: 30px;
 }
+.header-form{
+    padding: 10px;
+    background-color: #f3f3f3;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-form-input{
+    padding: 7px 10px;
+    width: 250px;
+    outline: none;
+    border: none;
+    background-color: #f3f3f3;
+}
+.header-form-icon{
+    padding: 7px;
+    background-color: var(--color-primary);
+    border-radius: 2px;
+}
