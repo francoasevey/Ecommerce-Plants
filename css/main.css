@@ -141,3 +141,18 @@ a{
     background-color: var(--color-primary);
     color: var(--color-dark-1);
 }
+.selling-item-img{
+    width: 100%;
+}
+.selling-item-title{
+    margin: 6px 0px;
+    font-weight: 600;
+}
+
+.section-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-h2{
+    font-size: 32px;
+}
