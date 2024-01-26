@@ -184,3 +184,42 @@ a{
 .about-item-title{
     margin: 20px 0px;
 }
+
+.categories{
+    margin-top: 40px;
+    width: 100%;
+    background-color: var(--color-primary);
+}
+.cat-container{
+    position: relative;
+    top: -40px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+.category-center{
+    margin-top: 60px;
+}
+.category{
+    text-align: center;
+}
+.category-title{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.categories-bottom{
+    padding: 20px 0px;
+    text-align: center;
+}
+.categories-p{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.categories-btn{
+    padding: 10px 20px;
+    background-color: #f3f3f3;
+    color: var(--color-dark-1);
+    border-radius: 2px;
+}
