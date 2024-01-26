@@ -223,3 +223,26 @@ a{
     color: var(--color-dark-1);
     border-radius: 2px;
 }
+
+.review{
+    background-color: var(--color-primary);
+    border-radius: 2px;
+    padding: 60px 100px;
+}
+.review-text{
+    margin-bottom: 30px;
+}
+.review-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.review-rating{
+    display: flex;
+}
+.review-rating > svg{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
